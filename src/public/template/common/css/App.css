@@ -1,38 +1,24 @@
 .App {
+  display: flex;
+  align-items: stretch; /* 各セクションを同じ高さに保持 */
+  height: 100vh; /* Viewport Height */
+}
+
+.Section {
+  flex-grow: 1; /* 各セクションが均等に広がるように設定 */
+  padding: 20px;
+  border: 1px solid #ccc;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.LeftSection {
+  background-color: #f8f9fa;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.CenterSection {
+  background-color: #e9ecef;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.RightSection {
+  background-color: #dee2e6;
 }
