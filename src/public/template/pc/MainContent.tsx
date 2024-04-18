@@ -1,9 +1,14 @@
 import React from "react";
+import LeftSection from "./LeftSection";
+import CenterSection from "./CenterSection";
+import RightSection from "./RightSection";
 
 const MainContent: React.FC = () => {
   return (
     <div className="MainContent">
-      <p>This is the main content section.</p>
+      <LeftSection />
+      <CenterSection />
+      <RightSection />
     </div>
   );
 };

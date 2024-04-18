@@ -1,24 +1,36 @@
 .App {
+  text-align: center;
   display: flex;
-  align-items: stretch; /* 各セクションを同じ高さに保持 */
-  height: 100vh; /* Viewport Height */
+  flex-direction: column;
+  height: 100vh;
 }
 
-.Section {
-  flex-grow: 1; /* 各セクションが均等に広がるように設定 */
+.Header, .Footer {
+  flex: 0 1 auto;
   padding: 20px;
-  border: 1px solid #ccc;
-  text-align: center;
+  background-color: #f3f3f3;
+}
+
+.MainContent {
+  flex: 1;
+  display: flex;
+  padding: 20px;
+}
+
+.LeftSection, .CenterSection, .RightSection {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid black;
 }
 
 .LeftSection {
-  background-color: #f8f9fa;
+  background-color: #f0e68c;
 }
 
 .CenterSection {
-  background-color: #e9ecef;
+  background-color: #e6e6fa;
 }
 
 .RightSection {
-  background-color: #dee2e6;
+  background-color: #ffe4c4;
 }
