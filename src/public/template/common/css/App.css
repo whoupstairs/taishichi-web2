@@ -17,20 +17,26 @@
   padding: 20px;
 }
 
-.LeftSection, .CenterSection, .RightSection {
+.LeftSection, .RightSection {
   flex: 1;
   padding: 10px;
-  border: 1px solid black;
-}
-
-.LeftSection {
-  background-color: #f0e68c;
+  border: 1px solid white;
 }
 
 .CenterSection {
-  background-color: #e6e6fa;
+  flex: 2;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.LeftSection {
+  background-color: #f3f3f3;
+}
+
+.CenterSection {
+  background-color: #f3f3f3;
 }
 
 .RightSection {
-  background-color: #ffe4c4;
+  background-color: #f3f3f3;
 }
