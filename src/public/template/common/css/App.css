@@ -8,7 +8,7 @@
 .Header, .Footer {
   flex: 0 1 auto;
   padding: 20px;
-  background-color: #f3f3f3;
+  background-color: white;
 }
 
 .MainContent {
@@ -20,23 +20,23 @@
 .LeftSection, .RightSection {
   flex: 1;
   padding: 10px;
-  border: 1px solid white;
+  border: 1px solid #f3f3f3;
 }
 
 .CenterSection {
   flex: 2;
   padding: 10px;
-  border: 1px solid white;
+  border: 1px solid #f3f3f3;
 }
 
 .LeftSection {
-  background-color: #f3f3f3;
+  background-color: white;
 }
 
 .CenterSection {
-  background-color: #f3f3f3;
+  background-color: white;
 }
 
 .RightSection {
-  background-color: #f3f3f3;
+  background-color: white;
 }
