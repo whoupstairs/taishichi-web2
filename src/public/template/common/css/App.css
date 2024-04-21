@@ -3,21 +3,28 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background-color: white;
 }
 
-.Header, .Footer {
+.Header {
   flex: 0 1 auto;
   padding: 20px;
-  background-color: white;
+
+}
+
+.Footer {
+  flex: 0 1 auto;
+  padding: 20px;
 }
 
 .MainContent {
   flex: 1;
   display: flex;
   padding: 20px;
+  border: 1px solid #f3f3f3;
 }
 
-.LeftSection, .RightSection {
+.LeftSection {
   flex: 1;
   padding: 10px;
   border: 1px solid #f3f3f3;
@@ -29,14 +36,8 @@
   border: 1px solid #f3f3f3;
 }
 
-.LeftSection {
-  background-color: white;
-}
-
-.CenterSection {
-  background-color: white;
-}
-
 .RightSection {
-  background-color: white;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #f3f3f3;
 }
