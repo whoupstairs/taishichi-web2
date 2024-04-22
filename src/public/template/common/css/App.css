@@ -8,13 +8,20 @@
 
 .Header {
   flex: 0 1 auto;
-  padding: 20px;
-
+  display: flex;
+  align-items: flex-start;  /* 垂直方向の配置を上端に */
+  justify-content: center;  /* 水平方向の配置を中央に */
+  width: 100%;
 }
 
 .Footer {
   flex: 0 1 auto;
-  padding: 20px;
+
+  height: 50px;
+  display: flex;
+  align-items: flex-start;  /* 垂直方向の配置を上端に */
+  justify-content: center;  /* 水平方向の配置を中央に */
+  width: 100%;
 }
 
 .MainContent {
