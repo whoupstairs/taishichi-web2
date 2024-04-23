@@ -3,7 +3,7 @@ import React from "react";
 const RightSection: React.FC = () => {
   return (
     <div className="RightSection">
-      <h2>Right Section</h2>
+      <h5>Right Section</h5>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import React from "react";
 const Header: React.FC = () => {
   return (
     <header className="Header">
-      <h3>Header</h3>
+      <h5>Header</h5>
     </header>
   );
 };
