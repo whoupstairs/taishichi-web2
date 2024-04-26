@@ -3,41 +3,54 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 100%; /* コンテナの幅を全幅に設定 */
   background-color: white;
 }
 
-.Header {
+
+.Header, .Footer {
   flex: 0 1 auto;
   display: flex;
-  margin-top:5px;
-  border-top:  #f3f3f3;
-  padding: 1px;
+  padding: 1px 5px; /* MainContent と同じ左右の padding を設定 */
   align-items: flex-start;  /* 垂直方向の配置を上端に */
   justify-content: center;  /* 水平方向の配置を中央に */
 }
 
+.Header {
+  margin-top: 5px;
+  padding: 5px;
+  border-top: 1px solid #f3f3f3; /* Border の色を修正 */
+
+}
+
 .Footer {
-  flex: 0 1 auto;
-  display: flex;
-  border-bottom:  #f3f3f3;
-  margin-bottom:5px;
-  align-items: flex-start;  /* 垂直方向の配置を上端に */
-  justify-content: center;  /* 水平方向の配置を中央に */
+  margin-bottom: 5px;
+  border-bottom: 1px solid #f3f3f3; /* Border の色を修正 */
+  background-color: #f3f3f3;
 }
 
 .MainContent {
   flex: 1;
   display: flex;
-  padding: 5px 5px 5px 5px;
+  padding: 5px;
   border: 1px solid #f3f3f3;
 }
+
 .LeftSection {
   flex: 1;
   padding: 10px;
   border: 1px solid #f3f3f3;
 }
+
+.LeftSection li {
+  text-align: left; /* テキストを左寄せに設定 */
+
+  
+}
+
+
 .CenterSection {
-  flex: 6;
+  flex: 3;
   padding: 10px;
   border: 1px solid #f3f3f3;
 }
