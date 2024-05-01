@@ -43,6 +43,14 @@
   border: 1px solid #f3f3f3;
 }
 
+li {
+  list-style-type: square;
+  padding: 1px;
+  margin: 5px 0;
+  border: 2px solid #f3f3f3;
+  background-color: #f3f3f3;
+}
+
 .LeftSection li {
   text-align: left; /* テキストを左寄せに設定 */
 
@@ -63,8 +71,9 @@
 }
 
 .GreyBox {
+  font-size: small;
   background-color: #f3f3f3;
-  padding: 10px;
-  margin: 5px;
-  height: 80%;
+  padding: 5px;
+  margin: 1px;
+  height: 88%;
 }
